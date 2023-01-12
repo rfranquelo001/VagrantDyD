@@ -1,0 +1,9 @@
+zone "akme.eus" {
+    type master;
+    file "/etc/bind/db.akme.eus";
+};
+
+zone "33.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.192.168.33";  # 192.168.33.0/24 subnet
+};

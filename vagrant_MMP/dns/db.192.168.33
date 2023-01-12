@@ -1,0 +1,15 @@
+$TTL    604800
+@       IN      SOA     akme.eus. admin.akme.eus. (
+                              3         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+; name servers
+      IN      NS      dns.akme.eus.
+
+; PTR Records
+10  IN      PTR     test.akme.eus.     ; 192.168.33.10
+20  IN      PTR     dev.akme.eus.    ; 192.168.33.20
+30  IN      PTR     www.akme.eus.     ; 192.168.33.30
+60  IN      PTR     host.akme.eus.    ; 192.168.33.60
